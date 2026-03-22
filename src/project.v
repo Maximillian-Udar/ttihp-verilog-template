@@ -20,7 +20,7 @@
  *   uo_out[6:0] = 7-segment display: lower nibble as hex digit 0–F
  *   uo_out[7]   = decimal point: 1 if prime, 0 if not
  */
-module tt_um_obrhubr (
+module tt_um_prime (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
